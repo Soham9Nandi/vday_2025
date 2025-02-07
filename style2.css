@@ -1,0 +1,43 @@
+body{
+    background-color: #FFEDFA;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-top: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.yes{
+    background-color: #87b106;
+    height: fit-content;
+    font-size: 6rem;
+    text-align: center;
+    border-radius: 10%;
+    padding: 20px;
+}
+.no{
+    background-color: #ed668c;
+    height: fit-content;
+    font-size: 0.5rem;
+    text-align: center;
+    border-radius: 10%;
+    padding: 2px;
+}
+img{
+    width: 60vh;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #E195AB;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+img{
+    width: 50vh;
+}

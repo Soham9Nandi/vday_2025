@@ -1,0 +1,38 @@
+body{
+    background-color: #FFEDFA;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.yes{
+    background-color: #87b106;
+    height: 75vh;
+    width: 130vh;
+    font-size: 15rem;
+    text-align: center;
+    border-radius: 10%;
+    padding-top: 20%;
+}
+img{
+    width: 60vh;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
